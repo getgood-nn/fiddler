@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FTP Style HTML Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+        .main {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-gap: 10px;
+            padding: 20px;
+        }
+        .item {
+            background-color: #f1f1f1;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .item a {
+            color: #333;
+            text-decoration: none;
+        }
+        .item a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to FTP Style HTML Page</h1>
+    </div>
+    <div class="main">
+        <div class="item">
+            <h2>Directory 1</h2>
+            <p><a href="#">Sub-Directory 1.1</a></p>
+            <p><a href="#">Sub-Directory 1.2</a></p>
+        </div>
+        <div class="item">
+            <h2>Directory 2</h2>
+            <p><a href="#">Sub-Directory 2.1</a></p>
+            <p><a href="#">Sub-Directory 2.2</a></p>
+        </div>
+        <div class="item">
+            <h2>Directory 3</h2>
+            <p><a href="#">Sub-Directory 3.1</a></p>
+            <p><a href="#">Sub-Directory 3.2</a></p>
+        </div>
+    </div>
+</body>
+</html>
